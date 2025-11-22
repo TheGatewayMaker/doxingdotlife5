@@ -5,6 +5,24 @@ export default {
   content: ["./client/**/*.{ts,tsx}"],
   prefix: "",
   theme: {
+    fontFamily: {
+      sans: [
+        "-apple-system",
+        "BlinkMacSystemFont",
+        '"Segoe UI"',
+        '"Helvetica Neue"',
+        "Arial",
+        "sans-serif",
+      ],
+      display: [
+        "-apple-system",
+        "BlinkMacSystemFont",
+        '"Segoe UI"',
+        '"Helvetica Neue"',
+        "Arial",
+        "sans-serif",
+      ],
+    },
     container: {
       center: true,
       padding: "2rem",
